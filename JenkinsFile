@@ -19,6 +19,6 @@ pipeline {
         always {
             echo 'Nettoyage post-build...'
             sh 'rm -rf node_modules'
-        }
+        } 
     }
 }
